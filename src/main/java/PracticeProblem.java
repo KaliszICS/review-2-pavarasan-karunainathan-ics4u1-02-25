@@ -47,13 +47,13 @@ public class PracticeProblem{
 		sc = new Scanner(System.in);
 		System.out.print("In: ");
 		System.out.println(sc.nextBoolean() + " is a boolean");
-		if(sc.hasNextLine()) sc.nextLine();
+		sc.nextLine();
 	}
 
 	public static void q6(){
 		sc = new Scanner(System.in);
 		System.out.print("In: ");
 		System.out.println(sc.nextDouble() - 3.2);
-		if(sc.hasNextLine()) sc.nextLine();
+		sc.nextLine();
 	}
 }
